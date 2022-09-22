@@ -1,6 +1,9 @@
 # Desafio de Projeto
 Desafio de Projeto sobre Git/GitHub
 
-
-### Links Úteis
-[Teste Link](https://docs.google.com/document/d/15YlnEN0IpIHIj97MkAgVyRjd4nKvD89wH1IUUP3FTt0/edit)
+##Comandos para sincronização do GitHub (local-nuvem)
+git clone https://github.com/adilagabrielly/dio-desafio-github-primeiro-repositorio.git
+git add .
+git commit -m “comentário”
+git status
+git push origin main /*envia todos os commits local para a nuvem */ 
