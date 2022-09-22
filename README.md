@@ -1,7 +1,7 @@
 # Desafio de Projeto
 Desafio de Projeto sobre Git/GitHub
 
-##Comandos para sincronização do GitHub (local-nuvem)
+## Comandos para sincronização do GitHub (local-nuvem)
 git clone https://github.com/adilagabrielly/dio-desafio-github-primeiro-repositorio.git
 git add .
 git commit -m “comentário”
