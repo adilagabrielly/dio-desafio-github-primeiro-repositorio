@@ -12,4 +12,7 @@ Desafio de Projeto sobre Git/GitHub
 ##  Comandos para sincronização do GitHub (nuvem->local)
 1. Na pasta local > (bd) Git Bash Here > git clone <link copiado do GitHub>
    ex.: https://github.com/adilagabrielly/dio-desafio-github-primeiro-repositorio.git
+   
+## Atualizar local depois de alteração da nuvem
+1. Abrir o repositório > Git Bash Here > git pull
 
