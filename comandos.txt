@@ -1,20 +1,25 @@
-# Desafio de Projeto 23/09/2022
+# Desafio de Projeto 23/09/2022 #
 Desafio de Projeto sobre Git/GitHub
 
-## Comandos para sincronização do GitHub (local->nuvem)
-0. Criar o diretório na nuvem > clonar na pasta local
-1. git clone https://github.com/adilagabrielly/dio-desafio-github-primeiro-repositorio.git
-2. git add .
-3. git commit -m “comentário”
-4. git status
-5. git push origin main /*envia todos os commits local para a nuvem */ 
+## Criar um novo repositório
+1. Criar o repositório na nuvem (https://github.com/adilagabrielly/) > clonar na pasta local
+2. git clone https://github.com/adilagabrielly/xxxxxxx.git
+
+## Comando para sincronização do GitHub(local->nuvem)
+1. Na repositório criado > Git Bash Here
+2. git status (para ver o que foi modificado)
+2. git add . (para upload de todas as modificações no repositório) ou
+   git add xxxx (para uploado de algum específico | xxxx deve ser substituído pelo nome do arquivo)
+3. git commit -m “comentário” (sempre o comentário entre aspas)
+4. git push origin main /*envia todos os commits local para a nuvem */
+5. git status (para conferir que está tudo sincronizado)
 
 
 ##  Comandos para sincronização do GitHub (nuvem->local)
-1. Na pasta local > (bd) Git Bash Here > git clone <link copiado do GitHub>
+0. Na pasta local > (bd) Git Bash Here > git clone <link copiado do GitHub>
    ex.: https://github.com/adilagabrielly/dio-desafio-github-primeiro-repositorio.git
    
-## Atualizar local depois de alteração da nuvem
-1. Abrir o repositório > Git Bash Here > git pull
+### Atualizar local depois de alteração da nuvem
+0. Abrir o repositório > Git Bash Here > git pull
 
 
